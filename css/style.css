@@ -1,0 +1,54 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Carousel Background Image Left Bottom */
+.carousel-bg-left{
+    background: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: inherit;
+}
+
+/* Carousel Background Image Center  */
+.carousel-bg{
+    background: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* All Button Background and Hover Color  */
+.btn-bg{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.btn-bg:hover{
+    color: orange !important;
+}
+
+/* See All Text Color  */
+.see-all-color{
+    color: orange;
+}
+
+/* Categories Underline CSS  */
+.myline{
+    width: 20vh;
+    height: 5px;
+    background-image: linear-gradient(to bottom right, yellow, rgb(238, 127, 63));
+    margin: auto;
+    border-radius: 20px;
+}
+
+/* Categories Image Radius Border  */
+.myborder1{
+    border: 1px solid white;
+    border-radius: 0 0 0 25px;
+}
+.myborder2{
+    border: 1px solid white;
+    border-radius: 0 0 25px 0;
+}
